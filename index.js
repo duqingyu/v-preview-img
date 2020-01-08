@@ -2,6 +2,7 @@
  * 预览图片自定义指令插件
  * v-preview-img
  * 注意: nuxt框架的id为__nuxt
+ * version: 0.1.3
  */
 
 const createElement = name => document.createElement(name)
