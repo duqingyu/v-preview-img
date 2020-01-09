@@ -13,7 +13,17 @@ npm install vue-directive-preview-image --save
 ### main.js
 ```
 import VueDirectivePreviewImage from 'vue-directive-preview-image'
-Vue.use(VueDirectivePreviewImage)
+Vue.use(VueDirectivePreviewImage, options)
+```
+
+### If you're using the Vue framework
+```
+ Vue.use(VueDirectivePreviewImage)
+```
+
+### If you're using the nuxt framework
+```
+ Vue.use(VueDirectivePreviewImage, '__nuxt')
 ```
 
 ### use this directive
