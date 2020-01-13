@@ -2,7 +2,7 @@
  * 预览图片自定义指令插件
  * v-preview-img
  * 注意: nuxt框架的id为__nuxt
- * version: 0.1.3
+ * version: 0.1.5
  */
 
 const createElement = name => document.createElement(name)
@@ -29,7 +29,7 @@ const previewImgPlugin = {
           appBox.appendChild(divBox)
           // 设置样式
           divBox.style.cssText = `position: fixed;
-            z-index: 9;
+            z-index: 9999;
             top: 0;
             left: 0;
             width: 100%;
